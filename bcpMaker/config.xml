@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CONFIG>
+  <PARAMETERS SourceFilesFolder="\\Mac\Home\Documents\Vault" TargetBCPFolder="c:\temp\package"/>
+  <IGNORE FileExtensions=".bak,.txt" Folders="OldVersions,_V"/>
+  <CATEGORYRULES>
+    <CATEGORYRULE>
+      <FILEEXTENSION>.iam,.ipt,.idw,.ipn,.dwg</FILEEXTENSION>
+      <CATEGORY>Engineering</CATEGORY>
+      <LIFECYCLEDEFINITON>Flexible Release Process</LIFECYCLEDEFINITON>
+      <STATE>Work in Progress</STATE>
+      <REVISION>-</REVISION>
+      <REVISIONDEFINITION>Standard Alphabetic Format</REVISIONDEFINITION>
+    </CATEGORYRULE>
+    <CATEGORYRULE>
+      <FILEEXTENSION>.doc,.docx,.xls,.xlsx,.ppt,.pptx</FILEEXTENSION>
+      <CATEGORY>Office</CATEGORY>
+      <LIFECYCLEDEFINITON>Basic Release Process</LIFECYCLEDEFINITON>
+      <STATE>Work in Progress</STATE>
+      <REVISION>-</REVISION>
+      <REVISIONDEFINITION>Standard Alphabetic Format</REVISIONDEFINITION>
+    </CATEGORYRULE>
+    <CATEGORYRULE>
+      <FILEEXTENSION></FILEEXTENSION>
+      <CATEGORY>Base</CATEGORY>
+    </CATEGORYRULE>
+  </CATEGORYRULES>
+</CONFIG>
